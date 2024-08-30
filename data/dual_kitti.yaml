@@ -1,0 +1,8 @@
+train: data/train.txt
+val: data/val.txt
+test: data/test.txt
+# Classes
+nc: 7  # number of classes
+names: ['Pedestrian', 'Tram', 'Person_sitting', 'Car', 'Cyclist', 'Trunk', 'Van']  # class names
+
+
